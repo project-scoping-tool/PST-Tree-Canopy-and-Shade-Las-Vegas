@@ -1,0 +1,610 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "10.8%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "89.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "87.5%",
+            "width": "100.0%",
+            "height": "93px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_1": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "8.5%",
+            "right": "57.5%",
+            "top": "2.0%",
+            "bottom": "93.1%",
+            "width": "34.0%",
+            "height": "4.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {
+            "left": "77.9%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "22.1%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {
+            "left": "8.5%",
+            "right": "78.1%",
+            "top": "7.6%",
+            "bottom": "85.4%",
+            "width": "13.5%",
+            "height": "7.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_2": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {
+            "left": "2.9%",
+            "right": "92.0%",
+            "top": "20.3%",
+            "bottom": "21.3%",
+            "width": "5.1%",
+            "height": "58.4%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "9.2%",
+            "right": "46.2%",
+            "top": "19.9%",
+            "bottom": "8.8%",
+            "width": "44.6%",
+            "height": "71.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_3": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {},
+          "setting": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "0"
+      ]
+    }
+  },
+  "exbVersion": "1.19.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/master/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "674436c8ec2047cbb77944c7543d907f",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.19.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_2",
+        "initialMapState": null,
+        "scaleRange": null,
+        "customLODs": null
+      },
+      "id": "widget_1",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_1"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
+        }
+      ]
+    },
+    "widget_2": {
+      "uri": "widgets/common/search/",
+      "version": "1.19.0",
+      "inControllerUx": "offPanel",
+      "label": "Search",
+      "config": {
+        "searchResultView": "Result_Panel",
+        "arrangementStyle": "Style1",
+        "searchResultStyle": "Classic",
+        "maxSuggestions": 6,
+        "recentSearchesMaxNumber": 6,
+        "resultMaxNumber": 6,
+        "enableFiltering": false,
+        "sourceType": "MapCentric",
+        "dataSourceConfigWithMapCentric": {
+          "widget_1-dataSource_1": null
+        },
+        "datasourceConfig": [],
+        "isAutoSelectFirstResult": true
+      },
+      "id": "widget_2",
+      "useMapWidgetIds": [
+        "widget_1"
+      ],
+      "useUtilities": []
+    },
+    "widget_3": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.19.0",
+      "label": "Fixed Panel",
+      "config": null,
+      "id": "widget_3",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_2"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--sys-color-success-dark)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        },
+        "textColor": "#ffffff"
+      }
+    },
+    "widget_4": {
+      "uri": "widgets/common/image/",
+      "version": "1.19.0",
+      "label": "Image",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {},
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_4"
+    },
+    "widget_5": {
+      "uri": "widgets/common/text/",
+      "version": "1.19.0",
+      "label": "Text",
+      "config": {
+        "text": "<h5>PST Tree Canopy &amp; Building Shade Map</h5>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_5"
+    },
+    "widget_6": {
+      "uri": "widgets/combined-shade/",
+      "version": "1.19.0",
+      "label": "Combined Shade Calculator",
+      "config": {},
+      "id": "widget_6",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_7": {
+      "uri": "widgets/common/controller/",
+      "version": "1.19.0",
+      "offPanel": true,
+      "label": "Widget Controller",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {}
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": false,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 10,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "circle"
+            }
+          }
+        }
+      },
+      "id": "widget_7",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_3"
+        }
+      }
+    },
+    "widget_8": {
+      "uri": "widgets/common/text/",
+      "version": "1.19.0",
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6.5 7.5A.5.5 0 0 1 7 7h1.5v4.5h1a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1h1V8H7a.5.5 0 0 1-.5-.5\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16m0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14\" clip-rule=\"evenodd\"></path></svg>",
+        "properties": {
+          "filename": "InfoOutlined",
+          "originalName": "outlined/suggested/info.svg",
+          "path": [
+            "suggested",
+            "InfoOutlined"
+          ],
+          "inlineSvg": true,
+          "isUploaded": false,
+          "color": ""
+        }
+      },
+      "label": "About",
+      "config": {
+        "text": "<p>This map estimates existing shade within a user-selected area by combining tree canopy and building shade at 3 PM. Tree canopy data comes from the USDA Forest Service Tree Canopy Cover dataset. Building footprints and height information come from Overture Maps, and building shadows are calculated using solar position from the pvlib Python library. Building footprints are excluded so the result represents actual shaded ground.</p><p><br></p><p>Sources: <a href=\"https://data.fs.usda.gov/geodata/rastergateway/treecanopycover/\" target=\"_blank\" data-uniqueid=\"0bf5ec47_1375_81bd_7cdd_a79ec0f3c155\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fdata.fs.usda.gov%2Fgeodata%2Frastergateway%2Ftreecanopycover%2F%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 13px;\">USDA Forest Service Tree Canopy Cover </a>- <a href=\"https://overturemaps.org/\" target=\"_blank\" data-uniqueid=\"ed565b15_9ba1_7638_d1ea_d1a31e513aed\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Foverturemaps.org%2F%22%2C%22expression%22%3Anull%7D\">Overture Maps</a> - <a href=\"https://pvlib-python.readthedocs.io/en/stable/\" target=\"_blank\" data-uniqueid=\"f05fc38b_1776_4d74_9b4c_3c440dab6756\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fpvlib-python.readthedocs.io%2Fen%2Fstable%2F%22%2C%22expression%22%3Anull%7D\">pvlib</a></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_8"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "messageConfigs": {
+    "messageConfig_1": {
+      "id": "messageConfig_1",
+      "messageType": "DATA_RECORD_SET_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_1-showOnMap-1783378669968_for_search_map_centric",
+          "widgetId": "widget_1",
+          "dataSourceId": null,
+          "sectionId": null,
+          "messageWidgetId": "widget_2",
+          "actionName": "showOnMap",
+          "description": null,
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1
+                }
+              }
+            },
+            "isOperationalLayer": true
+          },
+          "version": "1.21.0"
+        }
+      ],
+      "widgetId": "widget_2"
+    },
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_1-zoomToFeature-1783378669970_for_search_map_centric",
+          "widgetId": "widget_1",
+          "dataSourceId": null,
+          "sectionId": null,
+          "messageWidgetId": "widget_2",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": null,
+            "useDataSources": [],
+            "goToInitialMapExtentWhenSelectionCleared": false,
+            "useAnyTriggerData": true
+          },
+          "version": "1.21.0"
+        }
+      ],
+      "widgetId": "widget_2"
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://unlvarcgisonline.maps.arcgis.com"
+  },
+  "timestamp": 1787631456299,
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#6a737b",
+      "color": "#ffffff"
+    },
+    "body": {
+      "bg": "#e0e0e0",
+      "color": "#000000"
+    },
+    "button": {
+      "bg": "#b10202",
+      "color": "#ffffff"
+    },
+    "logo": {
+      "small": "https://unlvarcgisonline.maps.arcgis.com/sharing/rest/content/items/c1a2729e17f640f5b0b57c32d1a6d803/data"
+    }
+  },
+  "mainLocale": "en",
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "PST Tree Canopy Web Map",
+      "itemId": "082256a08da84283b676394b904e4ac6",
+      "portalUrl": "https://unlvarcgisonline.maps.arcgis.com"
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "WEB_MAP",
+      "sourceLabel": "PST Tree Canopy Web Map_2",
+      "itemId": "073a39205f5f431dbd5b6cc56a8ed44b",
+      "portalUrl": "https://unlvarcgisonline.maps.arcgis.com"
+    }
+  },
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ]
+}
